@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+      --light-grey: #dce4e3;
+    --text-color: #084236;
+  }
+
+body {
+    background-color: #dce4e3;
+    font-family: Poppins;
+    color: #084236;  
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 18.3fr 81.7fr;
+    font-size: 20px;
+}
+
+
+.nav {
+    background-color:#18c29c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;   
+    
+}
+
+.aside-top {
+    padding: 28px 14px 0 14px;
+   
+}
+
+.aside-bot {
+    background-color: #8ed7c6;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 18px;     
+    
+}
+
+.aside-bot button {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar-name {
+    display: flex;
+    align-items: center;
+}
+
+#avatar {
+    margin-right: 9px;
+}
+
+#name-and-lastname {
+    margin-right: 34px;
+    
+}
+
+/* BOTÕES */
+
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.buttom-container-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.buttom-container-search {
+    margin-top: 34px;  
+    display: flex;
+    align-items: center;    
+}
+
+
+
+
+
+.buttom-container {
+    display: flex;  
+    margin-top: 34px;  
+    margin-left: 13px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    
+}
+
+.buttom-container button {
+    margin-right: 13px;
+   
+    
+    
+}
+
+.button-search {
+    position: absolute;
+    z-index: 1;
+    margin-left: 13px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.last-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* INPUTS */
+
+#site-search {
+    background-color: #8ed7c6;
+    border-radius: 12px;
+    width: 100%;
+    height: 50.92px;
+    padding-left: 50px;
+    z-index: 0;
+    position: relative;
+    left: 0;
+
+}
+
+
+/* MAIN */
+
+main {
+    padding: 18px;
+}
+
+
